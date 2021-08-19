@@ -26,6 +26,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRunHydra.R`:
 
 	```r
+	print("Follow Instructions Below")
 	
   # STEP 0: (If necessary) In the top-right panel in RStudio, select the "Environment" tab and then click the broom icon to clear the environment
   
@@ -140,7 +141,6 @@ How to run
           runAnalyses = TRUE,
           packageResults = TRUE,
           maxCores = maxCores)
-          
 	```
 
 4. Upload the file ```export/Results_<DatabaseId>.zip``` in the output folder to the study coordinator:
