@@ -24,37 +24,29 @@ maxCores <- parallel::detectCores()
 # STEP 5b: The folder where the study intermediate and result files will be written:
 outputFolder <- "D:/StudyResults/GLP1Repro/CohortMethod/HERMESp3Hydra"
 
-# STEP 5c: Details for connecting to the server:
+# STEP 5c: Set details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(
         dbms = "redshift",
         user = keyring::key_get("redShiftUserName"),
         password = keyring::key_get("redShiftPassword"),
         port = 5439,
-        server = "ohda-prod-1.cldcoxyrkflo.us-east-1.redshift.amazonaws.com/truven_mdcd", # change DB extension to refer to the DB you want to analyze
+        server = "ohda-prod-1.cldcoxyrkflo.us-east-1.redshift.amazonaws.com/optum_ehr", # change DB extension to refer to the DB you want to analyze
         extraSettings = "ssl=true&sslfactory=com.amazon.redshift.ssl.NonValidatingFactory"
 )
 
 # STEP 5d: The name of the database schema where the CDM data can be found:
-#cdmDatabaseSchema <- "cdm_truven_ccae_v1676"
-#cdmDatabaseSchema <- "cdm_optum_extended_dod_v1679"
-cdmDatabaseSchema <- "cdm_truven_mdcd_v1561"
+cdmDatabaseSchema <- "cdm_optum_ehr_v1562"
+
 
 # STEP 5e: The name of the database schema and table where the study-specific cohorts will be instantiated:
 cohortDatabaseSchema <- "scratch_mconove1" # change to your scratch space
-#cohortTable <- "HERMES_p3_TruvenCCAE" #Revise cohortTable name to refer to the specific DB being run
-#cohortTable <- "HERMES_p3_OptumDOD" #Revise cohortTable name to refer to the specific DB being run
-cohortTable <- "HERMES_p3_TruvenMDCD" #Revise cohortTable name to refer to the specific DB being run
+cohortTable <- "HERMES_p3_OptumEHR" #Revise cohortTable name to include a specific reference to the DB being run
+
 
 # STEP 5f: Some DB-specific meta-information that will be used by the export function:
-# databaseId <- "TruvenCCAE"
-# databaseName <- "IBM Commercial Claims and Encounters (CCAE) v1676)"
-# databaseDescription <- "IBM Commercial Claims and Encounters (CCAE) v1676"
-# databaseId <- "OptumDOD"
-# databaseName <- "Optum Clinformatics Extended Data Mart - Date of Death (DOD) v1679"
-# databaseDescription <- "Optum Clinformatics Extended Data Mart - Date of Death (DOD) v1679"
-databaseId <- "TruvenMDCD"
-databaseName <- "IBM MarketScan Multi-State Medicaid (MDCD) v1561"
-databaseDescription <- "IBM MarketScan Multi-State Medicaid (MDCD) v1561"
+databaseId <- "OptumEHR"
+databaseName <- "Optum Pan-Therapeutic Electronic Health Records (OptumEHR) v1562"
+databaseDescription <- "Optum Pan-Therapeutic Electronic Health Records (OptumEHR) v1562"
 
 # For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
 options(sqlRenderTempEmulationSchema = NULL)
