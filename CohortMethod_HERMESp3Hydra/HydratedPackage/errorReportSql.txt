@@ -1,0 +1,144 @@
+DBMS:
+redshift
+
+Error:
+java.sql.SQLException: [Amazon](500310) Invalid operation: schema "cdm_truven_mdcd_v1561" does not exist;
+
+SQL:
+CREATE TABLE #cohort_person
+
+DISTKEY(subject_id)
+AS
+SELECT
+ROW_NUMBER() OVER (ORDER BY person_id, cohort_start_date ) AS row_id,
+	 subject_id ,
+
+	cohort_definition_id,
+
+	cohort_start_date,
+	DATEDIFF(DAY, observation_period_start_date, cohort_start_date) AS days_from_obs_start,
+	
+		DATEDIFF(DAY, cohort_start_date, cohort_end_date)
+	 AS days_to_cohort_end,
+	
+		DATEDIFF(DAY, cohort_start_date, observation_period_end_date)
+	 AS days_to_obs_end,
+	cohort_end_date
+
+FROM
+(
+
+	SELECT subject_id,
+		cohort_definition_id,
+		cohort_start_date,
+		cohort_end_date
+	FROM (
+
+
+	SELECT subject_id,
+		cohort_definition_id,
+		MIN(cohort_start_date) AS cohort_start_date,
+		MIN(cohort_end_date) AS cohort_end_date
+	FROM (
+
+
+
+		SELECT subject_id,
+		  cohort_definition_id,
+		  cohort_start_date,
+		  cohort_end_date
+		FROM (
+			SELECT subject_id,
+			  cohort_definition_id,
+			  cohort_start_date,
+			  cohort_end_date,
+			  ROW_NUMBER() OVER (PARTITION BY subject_id  ORDER BY cohort_start_date ) AS cohort_number
+		FROM (
+
+
+	SELECT exposure_table.subject_id,
+
+		cohort_definition_id,
+
+		cohort_start_date,
+		cohort_end_date
+	FROM scratch_mconove1.HERMES_p3_TruvenMDCD_TAR365 exposure_table
+	
+		
+			WHERE
+		
+		cohort_definition_id IN (2357, 2358)
+	
+
+
+	) temp1
+  ) temp2
+  WHERE cohort_number = 1
+
+	) raw_cohorts
+
+  GROUP BY subject_id,
+	cohort_definition_id
+	) first_only
+
+
+  WHERE cohort_start_date >= (
+				SELECT MAX(start_date)
+				FROM (
+
+					SELECT MIN(cohort_start_date) AS start_date
+					FROM scratch_mconove1.HERMES_p3_TruvenMDCD_TAR365
+
+					WHERE cohort_definition_id IN (2357, 2358)
+					GROUP BY cohort_definition_id
+
+
+				) tmp
+				)
+	AND cohort_start_date <= (
+				SELECT MIN(end_date)
+				FROM (
+
+					SELECT MAX(cohort_start_date) AS end_date
+					FROM scratch_mconove1.HERMES_p3_TruvenMDCD_TAR365
+
+					WHERE cohort_definition_id IN (2357, 2358)
+					GROUP BY cohort_definition_id
+
+
+				) tmp
+				)
+	) common_period
+
+
+INNER JOIN cdm_truven_mdcd_v1561.observation_period
+	ON subject_id = person_id
+WHERE cohort_start_date <= observation_period_end_date
+	AND cohort_start_date >= observation_period_start_date
+AND cohort_start_date >= CAST('19900101' AS DATE) 
+
+
+
+R version:
+R version 4.0.5 (2021-03-31)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- CohortMethod (4.1.0)
+- FeatureExtraction (3.1.1)
+- Andromeda (0.4.1)
+- dplyr (1.0.6)
+- Cyclops (3.1.1)
+- DatabaseConnector (4.0.2)
+- snow (0.4-3)
