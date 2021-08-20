@@ -2,7 +2,7 @@ DBMS:
 redshift
 
 Error:
-java.sql.SQLException: [Amazon](500310) Invalid operation: schema "cdm_optum_ehr_v1562" does not exist;
+java.sql.SQLException: [Amazon](500310) Invalid operation: permission denied for schema cdm_iqvia_pharmetrics_plus_v1670;
 
 SQL:
 CREATE TABLE #cohort_person
@@ -62,7 +62,7 @@ FROM
 
 		cohort_start_date,
 		cohort_end_date
-	FROM scratch_mconove1.HERMES_p3_OptumEHR_TAR365 exposure_table
+	FROM scratch_mconove1.HERMES_p3_PharmetricsPlus_TAR365 exposure_table
 	
 		
 			WHERE
@@ -87,7 +87,7 @@ FROM
 				FROM (
 
 					SELECT MIN(cohort_start_date) AS start_date
-					FROM scratch_mconove1.HERMES_p3_OptumEHR_TAR365
+					FROM scratch_mconove1.HERMES_p3_PharmetricsPlus_TAR365
 
 					WHERE cohort_definition_id IN (2357, 2358)
 					GROUP BY cohort_definition_id
@@ -100,7 +100,7 @@ FROM
 				FROM (
 
 					SELECT MAX(cohort_start_date) AS end_date
-					FROM scratch_mconove1.HERMES_p3_OptumEHR_TAR365
+					FROM scratch_mconove1.HERMES_p3_PharmetricsPlus_TAR365
 
 					WHERE cohort_definition_id IN (2357, 2358)
 					GROUP BY cohort_definition_id
@@ -111,7 +111,7 @@ FROM
 	) common_period
 
 
-INNER JOIN cdm_optum_ehr_v1562.observation_period
+INNER JOIN cdm_iqvia_pharmetrics_plus_v1670.observation_period
 	ON subject_id = person_id
 WHERE cohort_start_date <= observation_period_end_date
 	AND cohort_start_date >= observation_period_start_date

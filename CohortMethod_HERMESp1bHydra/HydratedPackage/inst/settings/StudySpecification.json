@@ -26,7 +26,7 @@
       "convergenceType": "gradient",
       "tuneSwindle": 10,
       "maxBoundCount": 5,
-      "tolerance": 1.0E-6,
+      "tolerance": 0.000001,
       "algorithm": "ccd"
     },
     "washoutPeriod": 365,
@@ -180,7 +180,7 @@
   "estimationAnalysisSettings": {
     "analysisSpecification": {
       "targetComparatorOutcomes": [{
-        "targetId": 2336,
+        "targetId": 2392,
         "comparatorId": 2360,
         "includedCovariateConceptIds": [],
         "excludedCovariateConceptIds": [
@@ -587,8 +587,8 @@
           36242644,
           21133686,
           40876815,
-          35147180,
           21065084,
+          35147180,
           21143602,
           42968761,
           41348575,
@@ -975,8 +975,8 @@
           36890734,
           43216649,
           40754289,
-          42954098,
           41032585,
+          42954098,
           43731091,
           41291443,
           41430942,
@@ -1712,8 +1712,8 @@
           1559761,
           43172912,
           43189549,
-          36897581,
           21155024,
+          36897581,
           44114968,
           41254331,
           43183791,
@@ -1910,8 +1910,8 @@
           35156644,
           21150755,
           782685,
-          21033618,
           42953917,
+          21033618,
           42954090,
           41095302,
           43149590,
@@ -2191,8 +2191,8 @@
           37003015,
           43139793,
           2057509,
-          40876792,
           41032587,
+          40876792,
           21082732,
           35884572,
           43194868,
@@ -2270,8 +2270,8 @@
           41011002,
           40970836,
           43215571,
-          43150742,
           42954091,
+          43150742,
           43172928,
           44816285,
           43158593,
@@ -2817,8 +2817,8 @@
           43839237,
           41313488,
           21082725,
-          42953988,
           44073421,
+          42953988,
           36213841,
           44108675,
           41078607,
@@ -2830,8 +2830,8 @@
           43174525,
           21171154,
           43821188,
-          42953837,
           41189120,
+          42953837,
           41322839,
           19017144,
           42731910,
@@ -3480,8 +3480,8 @@
           43605211,
           41307451,
           35863971,
-          36779972,
           43270881,
+          36779972,
           36408866,
           36257910,
           45774449,
@@ -3675,8 +3675,8 @@
           21053327,
           37496838,
           35884588,
-          42953903,
           43749049,
+          42953903,
           21121922,
           41189131,
           44175073,
@@ -5124,8 +5124,8 @@
           41001510,
           42954121,
           44037383,
-          2043029,
           21065073,
+          2043029,
           42953914,
           43033028,
           21091795,
@@ -5632,8 +5632,8 @@
           35409446,
           41135923,
           41063734,
-          42953952,
           21131682,
+          42953952,
           35743494,
           42953926,
           35789628,
@@ -6719,8 +6719,8 @@
           41104512,
           44119201,
           43200681,
-          40979270,
           43623084,
+          40979270,
           36779974,
           42953790,
           42954185,
@@ -8442,7 +8442,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "attr_class": "args",
@@ -8492,7 +8492,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -8726,7 +8726,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "attr_class": "args",
@@ -8776,7 +8776,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -9010,7 +9010,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "attr_class": "args",
@@ -9060,7 +9060,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -9294,7 +9294,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "attr_class": "args",
@@ -9344,7 +9344,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2.0E-7,
+              "tolerance": 2E-7,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -10423,80 +10423,6 @@
             ]},
             "name": "Drugs for CLRD",
             "id": 6
-          },
-          {
-            "expression": {"items": [
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 40166035,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "857974",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "saxagliptin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Ingredient",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 40239216,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "1100699",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "linagliptin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Ingredient",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 43013884,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "1368001",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "alogliptin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Ingredient",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              },
-              {
-                "isExcluded": false,
-                "concept": {
-                  "INVALID_REASON_CAPTION": "Valid",
-                  "CONCEPT_ID": 1580747,
-                  "STANDARD_CONCEPT": "S",
-                  "CONCEPT_CODE": "593411",
-                  "VOCABULARY_ID": "RxNorm",
-                  "CONCEPT_NAME": "sitagliptin",
-                  "DOMAIN_ID": "Drug",
-                  "STANDARD_CONCEPT_CAPTION": "Standard",
-                  "CONCEPT_CLASS_ID": "Ingredient",
-                  "INVALID_REASON": "V"
-                },
-                "includeMapped": false,
-                "includeDescendants": true
-              }
-            ]},
-            "name": "DPP-4I",
-            "id": 8
           },
           {
             "expression": {"items": [
@@ -26271,6 +26197,199 @@
             ]},
             "name": "insulin drugs and devices",
             "id": 37
+          },
+          {
+            "expression": {"items": [
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1530014,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "173",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "acetohexamide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19033498,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2068",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "carbutamide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1594973,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "2404",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "chlorpropamide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19001409,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "102846",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glibornuride",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19059796,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "4816",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "gliclazide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1597756,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "25789",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glimepiride",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1560171,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "4821",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glipizide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 19097821,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "25793",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "gliquidone",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1559684,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "4815",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "glyburide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1502809,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "10633",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "tolazamide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              },
+              {
+                "isExcluded": false,
+                "concept": {
+                  "INVALID_REASON_CAPTION": "Valid",
+                  "CONCEPT_ID": 1502855,
+                  "STANDARD_CONCEPT": "S",
+                  "CONCEPT_CODE": "10635",
+                  "VOCABULARY_ID": "RxNorm",
+                  "CONCEPT_NAME": "tolbutamide",
+                  "DOMAIN_ID": "Drug",
+                  "STANDARD_CONCEPT_CAPTION": "Standard",
+                  "CONCEPT_CLASS_ID": "Ingredient",
+                  "INVALID_REASON": "V"
+                },
+                "includeMapped": false,
+                "includeDescendants": true
+              }
+            ]},
+            "name": "sulfonylurea",
+            "id": 38
           }
         ],
         "EndStrategy": {"CustomEra": {
@@ -26284,7 +26403,7 @@
           "OccurrenceEndDate": null,
           "CorrelatedCriteria": null,
           "DrugSourceConcept": null,
-          "CodesetId": 8,
+          "CodesetId": 38,
           "DrugTypeExclude": false,
           "Quantity": null,
           "DrugType": null,
@@ -27758,7 +27877,7 @@
                   "OccurrenceEndDate": null,
                   "CorrelatedCriteria": null,
                   "DrugSourceConcept": null,
-                  "CodesetId": 8,
+                  "CodesetId": 38,
                   "DrugTypeExclude": false,
                   "Quantity": null,
                   "DrugType": null,
@@ -27792,7 +27911,7 @@
               "Groups": [],
               "Count": null
             },
-            "name": "no prior DPP4 exposure in 365d prior to or on index",
+            "name": "no prior sulfonylurea exposure in 365d prior to or on index",
             "description": null
           },
           {
@@ -28006,12 +28125,12 @@
       },
       "createdDate": null,
       "createdBy": null,
-      "name": "GLP1 new users via standard concepts 2006-2017",
+      "name": "GLP1 new users via standard concept (no prior sulf) 2006-2017",
       "modifiedDate": null,
       "description": null,
       "expressionType": "SIMPLE_EXPRESSION",
       "modifiedBy": null,
-      "id": 2336
+      "id": 2392
     },
     {
       "expression": {
@@ -48972,420 +49091,420 @@
   "packageName": "HERMESp1bHydra",
   "negativeControls": [
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Joint stiffness",
       "comparatorId": 2360,
       "outcomeId": 72404,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Benign paroxysmal positional vertigo",
       "comparatorId": 2360,
       "outcomeId": 81878,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Bacteremia",
       "comparatorId": 2360,
       "outcomeId": 132736,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Cachexia",
       "comparatorId": 2360,
       "outcomeId": 134765,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Skin sensation disturbance",
       "comparatorId": 2360,
       "outcomeId": 137682,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Marfan's syndrome",
       "comparatorId": 2360,
       "outcomeId": 258540,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Impacted cerumen",
       "comparatorId": 2360,
       "outcomeId": 374375,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Foreign body in ear",
       "comparatorId": 2360,
       "outcomeId": 374801,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Tinnitus",
       "comparatorId": 2360,
       "outcomeId": 377575,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Deviated nasal septum",
       "comparatorId": 2360,
       "outcomeId": 377910,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Lagophthalmos",
       "comparatorId": 2360,
       "outcomeId": 381021,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Symbolic dysfunction",
       "comparatorId": 2360,
       "outcomeId": 432436,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Mechanical complication of internal orthopedic device, implant AND/OR graft",
       "comparatorId": 2360,
       "outcomeId": 432798,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Tooth loss",
       "comparatorId": 2360,
       "outcomeId": 433244,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Poisoning by tranquilizer",
       "comparatorId": 2360,
       "outcomeId": 433951,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Lymphangioma",
       "comparatorId": 2360,
       "outcomeId": 433997,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Complication of gastrostomy",
       "comparatorId": 2360,
       "outcomeId": 434675,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Developmental delay",
       "comparatorId": 2360,
       "outcomeId": 436077,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Toxic effect of lead compound",
       "comparatorId": 2360,
       "outcomeId": 436876,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Physiological development failure",
       "comparatorId": 2360,
       "outcomeId": 437092,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Exhaustion due to excessive exertion",
       "comparatorId": 2360,
       "outcomeId": 437448,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Opioid abuse",
       "comparatorId": 2360,
       "outcomeId": 438130,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Premenstrual tension syndrome",
       "comparatorId": 2360,
       "outcomeId": 439081,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Galactosemia",
       "comparatorId": 2360,
       "outcomeId": 439788,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Emotional upset",
       "comparatorId": 2360,
       "outcomeId": 439791,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Minimal cognitive impairment",
       "comparatorId": 2360,
       "outcomeId": 439795,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Hemospermia",
       "comparatorId": 2360,
       "outcomeId": 439871,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Abnormal posture",
       "comparatorId": 2360,
       "outcomeId": 439935,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Wristdrop",
       "comparatorId": 2360,
       "outcomeId": 440193,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",
       "comparatorId": 2360,
       "outcomeId": 440276,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Toxic effect of tobacco and nicotine",
       "comparatorId": 2360,
       "outcomeId": 440612,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Cervicovaginal cytology: Low grade squamous intraepithelial lesion",
       "comparatorId": 2360,
       "outcomeId": 443570,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Abrasion and/or friction burn of multiple sites",
       "comparatorId": 2360,
       "outcomeId": 443585,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Spasm of back muscles",
       "comparatorId": 2360,
       "outcomeId": 4002818,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Social exclusion",
       "comparatorId": 2360,
       "outcomeId": 4019836,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Lipid storage disease",
       "comparatorId": 2360,
       "outcomeId": 4027782,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Malingering",
       "comparatorId": 2360,
       "outcomeId": 4051630,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Tumor lysis syndrome",
       "comparatorId": 2360,
       "outcomeId": 4079687,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Absent kidney",
       "comparatorId": 2360,
       "outcomeId": 4092879,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Feces contents abnormal",
       "comparatorId": 2360,
       "outcomeId": 4092896,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Pregnancy test negative",
       "comparatorId": 2360,
       "outcomeId": 4094448,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Foreskin deficient",
       "comparatorId": 2360,
       "outcomeId": 4096540,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Genetic disorder carrier",
       "comparatorId": 2360,
       "outcomeId": 4168318,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Non-suppurative otitis media",
       "comparatorId": 2360,
       "outcomeId": 4170137,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Epidermoid cyst",
       "comparatorId": 2360,
       "outcomeId": 4170770,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Tracheostomy present",
       "comparatorId": 2360,
       "outcomeId": 4201387,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Colostomy present",
       "comparatorId": 2360,
       "outcomeId": 4201390,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Nicotine dependence",
       "comparatorId": 2360,
       "outcomeId": 4209423,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Cervical somatic dysfunction",
       "comparatorId": 2360,
       "outcomeId": 4213540,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Bizarre personal appearance",
       "comparatorId": 2360,
       "outcomeId": 4216219,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Stupor",
       "comparatorId": 2360,
       "outcomeId": 4229897,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Jellyfish poisoning",
       "comparatorId": 2360,
       "outcomeId": 4265896,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Opioid intoxication",
       "comparatorId": 2360,
       "outcomeId": 4299094,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Impingement syndrome of shoulder region",
       "comparatorId": 2360,
       "outcomeId": 4344500,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Nonspecific tuberculin test reaction",
       "comparatorId": 2360,
       "outcomeId": 40480893,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Ganglion cyst",
       "comparatorId": 2360,
       "outcomeId": 40481632,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Inadequate sleep hygiene",
       "comparatorId": 2360,
       "outcomeId": 40481897,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Unsatisfactory tooth restoration",
       "comparatorId": 2360,
       "outcomeId": 45757285,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Anomaly of jaw size",
       "comparatorId": 2360,
       "outcomeId": 45757682,
       "type": "outcome"
     },
     {
-      "targetId": 2336,
+      "targetId": 2392,
       "outcomeName": "Problem related to lifestyle",
       "comparatorId": 2360,
       "outcomeId": 46286594,
