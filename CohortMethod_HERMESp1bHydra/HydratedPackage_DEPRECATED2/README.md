@@ -23,7 +23,7 @@ How to run
 
 3. In RStudio, select 'Build' then 'Install and Restart' to build the package.
 
-3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
+3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRunHydra.R`:
 
 	```r
 	library(HERMESp1bHydra)
