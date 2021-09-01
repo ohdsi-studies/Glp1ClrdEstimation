@@ -1,0 +1,121 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+2344,2345,72404,Joint stiffness,outcome
+2344,2345,81878,Benign paroxysmal positional vertigo,outcome
+2344,2345,132736,Bacteremia,outcome
+2344,2345,134765,Cachexia,outcome
+2344,2345,137682,Skin sensation disturbance,outcome
+2344,2345,258540,Marfan's syndrome,outcome
+2344,2345,374375,Impacted cerumen,outcome
+2344,2345,374801,Foreign body in ear,outcome
+2344,2345,377575,Tinnitus,outcome
+2344,2345,377910,Deviated nasal septum,outcome
+2344,2345,381021,Lagophthalmos,outcome
+2344,2345,432436,Symbolic dysfunction,outcome
+2344,2345,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+2344,2345,433244,Tooth loss,outcome
+2344,2345,433951,Poisoning by tranquilizer,outcome
+2344,2345,433997,Lymphangioma,outcome
+2344,2345,434675,Complication of gastrostomy,outcome
+2344,2345,436077,Developmental delay,outcome
+2344,2345,436876,Toxic effect of lead compound,outcome
+2344,2345,437092,Physiological development failure,outcome
+2344,2345,437448,Exhaustion due to excessive exertion,outcome
+2344,2345,438130,Opioid abuse,outcome
+2344,2345,439081,Premenstrual tension syndrome,outcome
+2344,2345,439788,Galactosemia,outcome
+2344,2345,439791,Emotional upset,outcome
+2344,2345,439795,Minimal cognitive impairment,outcome
+2344,2345,439871,Hemospermia,outcome
+2344,2345,439935,Abnormal posture,outcome
+2344,2345,440193,Wristdrop,outcome
+2344,2345,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+2344,2345,440612,Toxic effect of tobacco and nicotine,outcome
+2344,2345,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+2344,2345,443585,Abrasion and/or friction burn of multiple sites,outcome
+2344,2345,4002818,Spasm of back muscles,outcome
+2344,2345,4019836,Social exclusion,outcome
+2344,2345,4027782,Lipid storage disease,outcome
+2344,2345,4051630,Malingering,outcome
+2344,2345,4079687,Tumor lysis syndrome,outcome
+2344,2345,4092879,Absent kidney,outcome
+2344,2345,4092896,Feces contents abnormal,outcome
+2344,2345,4094448,Pregnancy test negative,outcome
+2344,2345,4096540,Foreskin deficient,outcome
+2344,2345,4168318,Genetic disorder carrier,outcome
+2344,2345,4170137,Non-suppurative otitis media,outcome
+2344,2345,4170770,Epidermoid cyst,outcome
+2344,2345,4201387,Tracheostomy present,outcome
+2344,2345,4201390,Colostomy present,outcome
+2344,2345,4209423,Nicotine dependence,outcome
+2344,2345,4213540,Cervical somatic dysfunction,outcome
+2344,2345,4216219,Bizarre personal appearance,outcome
+2344,2345,4229897,Stupor,outcome
+2344,2345,4265896,Jellyfish poisoning,outcome
+2344,2345,4299094,Opioid intoxication,outcome
+2344,2345,4344500,Impingement syndrome of shoulder region,outcome
+2344,2345,40480893,Nonspecific tuberculin test reaction,outcome
+2344,2345,40481632,Ganglion cyst,outcome
+2344,2345,40481897,Inadequate sleep hygiene,outcome
+2344,2345,45757285,Unsatisfactory tooth restoration,outcome
+2344,2345,45757682,Anomaly of jaw size,outcome
+2344,2345,46286594,Problem related to lifestyle,outcome
+2357,2358,72404,Joint stiffness,outcome
+2357,2358,81878,Benign paroxysmal positional vertigo,outcome
+2357,2358,132736,Bacteremia,outcome
+2357,2358,134765,Cachexia,outcome
+2357,2358,137682,Skin sensation disturbance,outcome
+2357,2358,258540,Marfan's syndrome,outcome
+2357,2358,374375,Impacted cerumen,outcome
+2357,2358,374801,Foreign body in ear,outcome
+2357,2358,377575,Tinnitus,outcome
+2357,2358,377910,Deviated nasal septum,outcome
+2357,2358,381021,Lagophthalmos,outcome
+2357,2358,432436,Symbolic dysfunction,outcome
+2357,2358,432798,"Mechanical complication of internal orthopedic device, implant AND/OR graft",outcome
+2357,2358,433244,Tooth loss,outcome
+2357,2358,433951,Poisoning by tranquilizer,outcome
+2357,2358,433997,Lymphangioma,outcome
+2357,2358,434675,Complication of gastrostomy,outcome
+2357,2358,436077,Developmental delay,outcome
+2357,2358,436876,Toxic effect of lead compound,outcome
+2357,2358,437092,Physiological development failure,outcome
+2357,2358,437448,Exhaustion due to excessive exertion,outcome
+2357,2358,438130,Opioid abuse,outcome
+2357,2358,439081,Premenstrual tension syndrome,outcome
+2357,2358,439788,Galactosemia,outcome
+2357,2358,439791,Emotional upset,outcome
+2357,2358,439795,Minimal cognitive impairment,outcome
+2357,2358,439871,Hemospermia,outcome
+2357,2358,439935,Abnormal posture,outcome
+2357,2358,440193,Wristdrop,outcome
+2357,2358,440276,"Infection AND/OR inflammatory reaction due to internal prosthetic device, implant AND/OR graft",outcome
+2357,2358,440612,Toxic effect of tobacco and nicotine,outcome
+2357,2358,443570,Cervicovaginal cytology: Low grade squamous intraepithelial lesion,outcome
+2357,2358,443585,Abrasion and/or friction burn of multiple sites,outcome
+2357,2358,4002818,Spasm of back muscles,outcome
+2357,2358,4019836,Social exclusion,outcome
+2357,2358,4027782,Lipid storage disease,outcome
+2357,2358,4051630,Malingering,outcome
+2357,2358,4079687,Tumor lysis syndrome,outcome
+2357,2358,4092879,Absent kidney,outcome
+2357,2358,4092896,Feces contents abnormal,outcome
+2357,2358,4094448,Pregnancy test negative,outcome
+2357,2358,4096540,Foreskin deficient,outcome
+2357,2358,4168318,Genetic disorder carrier,outcome
+2357,2358,4170137,Non-suppurative otitis media,outcome
+2357,2358,4170770,Epidermoid cyst,outcome
+2357,2358,4201387,Tracheostomy present,outcome
+2357,2358,4201390,Colostomy present,outcome
+2357,2358,4209423,Nicotine dependence,outcome
+2357,2358,4213540,Cervical somatic dysfunction,outcome
+2357,2358,4216219,Bizarre personal appearance,outcome
+2357,2358,4229897,Stupor,outcome
+2357,2358,4265896,Jellyfish poisoning,outcome
+2357,2358,4299094,Opioid intoxication,outcome
+2357,2358,4344500,Impingement syndrome of shoulder region,outcome
+2357,2358,40480893,Nonspecific tuberculin test reaction,outcome
+2357,2358,40481632,Ganglion cyst,outcome
+2357,2358,40481897,Inadequate sleep hygiene,outcome
+2357,2358,45757285,Unsatisfactory tooth restoration,outcome
+2357,2358,45757682,Anomaly of jaw size,outcome
+2357,2358,46286594,Problem related to lifestyle,outcome

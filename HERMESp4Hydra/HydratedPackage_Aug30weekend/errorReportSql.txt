@@ -1,0 +1,44 @@
+DBMS:
+redshift
+
+Error:
+java.sql.SQLException: [Amazon](500310) Invalid operation: relation "hermes_p4v2_jmdc_tar365" already exists;
+
+SQL:
+CREATE TABLE scratch_mconove1.HERMES_p4v2_JMDC_TAR365
+               
+DISTKEY(subject_id)
+AS
+SELECT
+cohort_definition_id,  subject_id , cohort_start_date,
+               case when cohort_definition_id in (2344,2357,2413,2416,2415,2414,2345,2358) and datediff(days,cohort_start_date,cohort_end_date) > 365
+                    then to_date(cast(DATEADD(days,CAST(365 as int),cohort_start_date) as VARCHAR(max)),'YYYY-MM-DD')
+                    else cohort_end_date end as cohort_end_date
+               
+FROM
+scratch_mconove1.HERMES_p4v2_JMDC
+
+R version:
+R version 4.0.5 (2021-03-31)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- CohortMethod (4.1.0)
+- FeatureExtraction (3.1.1)
+- Andromeda (0.4.1)
+- dplyr (1.0.6)
+- Cyclops (3.1.1)
+- keyring (1.2.0)
+- HERMESp4Hydra (0.0.1)
+- DatabaseConnector (4.0.2)

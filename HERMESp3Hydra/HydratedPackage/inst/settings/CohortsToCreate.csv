@@ -1,0 +1,9 @@
+atlasId,atlasName,cohortId,name
+2344,GLP1 new users 2006-2020,2344,GLP1_new_users_20062020
+2345,DPP4 new users 2006-2020,2345,DPP4_new_users_20062020
+2342,CLRD exacerbations via standard concepts,2342,CLRD_exacerbations_via_standard_concepts
+2339,CLRD hospitalizations via standard concepts,2339,CLRD_hospitalizations_via_standard_concepts
+2506,CLRD exacerbations via standard concepts in any position,2506,CLRD_exacerbations_via_standard_concepts_in_any_position
+2507,CLRD hospitalizations via standard concepts in any position,2507,CLRD_hospitalizations_via_standard_concepts_in_any_position
+2357,GLP1 new users 1Nov2015-2020 with ICD10CM,2357,GLP1_new_users_1Nov20152020_with_ICD10CM
+2358,DPP4 new users 1Nov2015-2020 with ICD10CM,2358,DPP4_new_users_1Nov20152020_with_ICD10CM

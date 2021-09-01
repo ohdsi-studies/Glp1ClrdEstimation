@@ -1,0 +1,45 @@
+Package: HERMESp4Hydra
+Type: Package
+Title: A Package Skeleton for Comparative Effectiveness Studies
+Version: 0.0.1
+Author: Martijn Schuemie [aut, cre]
+Maintainer: Martijn J. Schuemie <schuemie@ohdsi.org>
+Description: A skeleton package, to be used as a starting point when implementing comparative effect studies.
+Depends:
+    R(>= 3.6.0),
+    DatabaseConnector (>= 4.0.2)
+Imports:
+    SqlRender (>= 1.7.0),
+    EmpiricalCalibration (>= 2.1.0),
+    Cyclops (>= 3.1.1),
+    FeatureExtraction (>= 3.1.1),
+    CohortMethod (>= 4.1.0),
+    ggplot2,
+    Andromeda (>= 0.4.1),
+    dplyr,
+    tibble,
+    readr,
+    rlang,
+    MethodEvaluation (>= 2.1.0),
+    OhdsiSharing (>= 0.2.2),
+	ParallelLogger (>= 2.0.1),
+	survival,
+	plyr,
+	jsonlite
+Suggests:
+    knitr,
+    rmarkdown,
+    DT,
+    shiny,
+    EvidenceSynthesis,
+    meta,
+    tidyr
+Remotes:
+    ohdsi/FeatureExtraction,
+    ohdsi/CohortMethod,
+    ohdsi/MethodEvaluation,
+    ohdsi/OhdsiSharing
+License: Apache License 2.0
+VignetteBuilder: knitr
+LazyData: TRUE
+RoxygenNote: 7.1.1
