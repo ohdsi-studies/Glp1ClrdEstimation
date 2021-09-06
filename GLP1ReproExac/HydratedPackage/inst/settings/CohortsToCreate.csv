@@ -1,0 +1,13 @@
+atlasId,atlasName,cohortId,name
+2334,GLP1 new users via source codes 2006-2017,2334,GLP1_new_users_via_source_codes_20062017
+2335,DPP4 new users via source codes 2006-2017,2335,DPP4_new_users_via_source_codes_20062017
+2343,CLRD exacerbations via source codes,2343,CLRD_exacerbations_via_source_codes
+2336,GLP1 new users via standard concepts 2006-2017,2336,GLP1_new_users_via_standard_concepts_20062017
+2337,DPP4 new users via standard concepts 2006-2017,2337,DPP4_new_users_via_standard_concepts_20062017
+2342,CLRD exacerbations via standard concepts,2342,CLRD_exacerbations_via_standard_concepts
+2344,GLP1 new users 2006-2020,2344,GLP1_new_users_20062020
+2345,DPP4 new users 2006-2020,2345,DPP4_new_users_20062020
+2357,GLP1 new users 1Nov2015-2020 with ICD10CM,2357,GLP1_new_users_1Nov20152020_with_ICD10CM
+2358,DPP4 new users 1Nov2015-2020 with ICD10CM,2358,DPP4_new_users_1Nov20152020_with_ICD10CM
+2354,GLP1 new users 2006-1Oct2014 with ICD9CM,2354,GLP1_new_users_20061Oct2014_with_ICD9CM
+2355,DPP4 new users 2006-1Oct2014 with ICD9CM,2355,DPP4_new_users_20061Oct2014_with_ICD9CM

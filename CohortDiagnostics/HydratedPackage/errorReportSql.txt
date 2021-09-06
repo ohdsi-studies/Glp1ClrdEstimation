@@ -1,0 +1,237 @@
+DBMS:
+redshift
+
+Error:
+java.sql.SQLException: [Amazon](600001) The server closed the connection.
+
+SQL:
+CREATE TABLE #Inclusion_4
+
+DISTKEY(person_id)
+AS
+SELECT
+4 as inclusion_rule_id,  person_id , event_id
+
+FROM
+(
+  select pe.person_id, pe.event_id
+  FROM #qualified_events pe
+  
+JOIN (
+-- Begin Criteria Group
+select 0 as index_id, person_id, event_id
+FROM
+(
+  select E.person_id, E.event_id 
+  FROM #qualified_events E
+  INNER JOIN
+  (
+    -- Begin Correlated Criteria
+select 0 as index_id, cc.person_id, cc.event_id
+from (SELECT p.person_id, p.event_id 
+FROM #qualified_events P
+JOIN (
+  select PE.person_id, PE.event_id, PE.start_date, PE.end_date, PE.visit_occurrence_id, PE.sort_date FROM (
+-- Begin Condition Occurrence Criteria
+SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,CAST(1 as int),C.condition_start_date)) as end_date,
+  C.visit_occurrence_id, C.condition_start_date as sort_date
+FROM 
+(
+  SELECT co.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.CONDITION_OCCURRENCE co
+  JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 19)
+) C
+
+WHERE (C.condition_start_date >= TO_DATE(TO_CHAR(2005,'0000FM')||'-'||TO_CHAR(1,'00FM')||'-'||TO_CHAR(1,'00FM'), 'YYYY-MM-DD') and C.condition_start_date <= TO_DATE(TO_CHAR(2017,'0000FM')||'-'||TO_CHAR(12,'00FM')||'-'||TO_CHAR(31,'00FM'), 'YYYY-MM-DD'))
+-- End Condition Occurrence Criteria
+
+) PE
+JOIN (
+-- Begin Criteria Group
+select 0 as index_id, person_id, event_id
+FROM
+(
+  select E.person_id, E.event_id 
+  FROM (SELECT Q.person_id, Q.event_id, Q.start_date, Q.end_date, Q.visit_occurrence_id, OP.observation_period_start_date as op_start_date, OP.observation_period_end_date as op_end_date
+FROM (-- Begin Condition Occurrence Criteria
+SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,CAST(1 as int),C.condition_start_date)) as end_date,
+  C.visit_occurrence_id, C.condition_start_date as sort_date
+FROM 
+(
+  SELECT co.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.CONDITION_OCCURRENCE co
+  JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 19)
+) C
+
+WHERE (C.condition_start_date >= TO_DATE(TO_CHAR(2005,'0000FM')||'-'||TO_CHAR(1,'00FM')||'-'||TO_CHAR(1,'00FM'), 'YYYY-MM-DD') and C.condition_start_date <= TO_DATE(TO_CHAR(2017,'0000FM')||'-'||TO_CHAR(12,'00FM')||'-'||TO_CHAR(31,'00FM'), 'YYYY-MM-DD'))
+-- End Condition Occurrence Criteria
+) Q
+JOIN cdm_iqvia_pharmetrics_plus_v1500.OBSERVATION_PERIOD OP on Q.person_id = OP.person_id 
+  and OP.observation_period_start_date <= Q.start_date and OP.observation_period_end_date >= Q.start_date
+) E
+  INNER JOIN
+  (
+    -- Begin Correlated Criteria
+select 0 as index_id, cc.person_id, cc.event_id
+from (SELECT p.person_id, p.event_id 
+FROM (SELECT Q.person_id, Q.event_id, Q.start_date, Q.end_date, Q.visit_occurrence_id, OP.observation_period_start_date as op_start_date, OP.observation_period_end_date as op_end_date
+FROM (-- Begin Condition Occurrence Criteria
+SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,CAST(1 as int),C.condition_start_date)) as end_date,
+  C.visit_occurrence_id, C.condition_start_date as sort_date
+FROM 
+(
+  SELECT co.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.CONDITION_OCCURRENCE co
+  JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 19)
+) C
+
+WHERE (C.condition_start_date >= TO_DATE(TO_CHAR(2005,'0000FM')||'-'||TO_CHAR(1,'00FM')||'-'||TO_CHAR(1,'00FM'), 'YYYY-MM-DD') and C.condition_start_date <= TO_DATE(TO_CHAR(2017,'0000FM')||'-'||TO_CHAR(12,'00FM')||'-'||TO_CHAR(31,'00FM'), 'YYYY-MM-DD'))
+-- End Condition Occurrence Criteria
+) Q
+JOIN cdm_iqvia_pharmetrics_plus_v1500.OBSERVATION_PERIOD OP on Q.person_id = OP.person_id 
+  and OP.observation_period_start_date <= Q.start_date and OP.observation_period_end_date >= Q.start_date
+) P
+JOIN (
+  -- Begin Visit Occurrence Criteria
+select C.person_id, C.visit_occurrence_id as event_id, C.visit_start_date as start_date, C.visit_end_date as end_date,
+       C.visit_occurrence_id, C.visit_start_date as sort_date
+from 
+(
+  select vo.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.VISIT_OCCURRENCE vo
+JOIN #Codesets cs on (vo.visit_concept_id = cs.concept_id and cs.codeset_id = 11)
+) C
+
+
+-- End Visit Occurrence Criteria
+
+) A on A.person_id = P.person_id  AND A.START_DATE >= P.OP_START_DATE AND A.START_DATE <= P.OP_END_DATE AND A.START_DATE >= P.OP_START_DATE AND A.START_DATE <= DATEADD(day,CAST(0 as int),P.START_DATE) AND A.END_DATE >= DATEADD(day,CAST(0 as int),P.START_DATE) AND A.END_DATE <= P.OP_END_DATE ) cc 
+GROUP BY cc.person_id, cc.event_id
+HAVING COUNT(cc.event_id) >= 1
+-- End Correlated Criteria
+
+  ) CQ on E.person_id = CQ.person_id and E.event_id = CQ.event_id
+  GROUP BY E.person_id, E.event_id
+  HAVING COUNT(index_id) = 1
+) G
+-- End Criteria Group
+) AC on AC.person_id = pe.person_id and AC.event_id = pe.event_id
+
+) A on A.person_id = P.person_id  AND A.START_DATE >= P.OP_START_DATE AND A.START_DATE <= P.OP_END_DATE AND A.START_DATE >= DATEADD(day,CAST(-365 as int),P.START_DATE) AND A.START_DATE <= DATEADD(day,CAST(0 as int),P.START_DATE) ) cc 
+GROUP BY cc.person_id, cc.event_id
+HAVING COUNT(cc.event_id) >= 1
+-- End Correlated Criteria
+
+UNION ALL
+-- Begin Correlated Criteria
+select 1 as index_id, cc.person_id, cc.event_id
+from (SELECT p.person_id, p.event_id , A.start_date
+FROM #qualified_events P
+JOIN (
+  -- Begin Condition Occurrence Criteria
+SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,CAST(1 as int),C.condition_start_date)) as end_date,
+  C.visit_occurrence_id, C.condition_start_date as sort_date
+FROM 
+(
+  SELECT co.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.CONDITION_OCCURRENCE co
+  JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 19)
+) C
+
+WHERE (C.condition_start_date >= TO_DATE(TO_CHAR(2005,'0000FM')||'-'||TO_CHAR(1,'00FM')||'-'||TO_CHAR(1,'00FM'), 'YYYY-MM-DD') and C.condition_start_date <= TO_DATE(TO_CHAR(2017,'0000FM')||'-'||TO_CHAR(12,'00FM')||'-'||TO_CHAR(31,'00FM'), 'YYYY-MM-DD'))
+-- End Condition Occurrence Criteria
+
+) A on A.person_id = P.person_id  AND A.START_DATE >= P.OP_START_DATE AND A.START_DATE <= P.OP_END_DATE AND A.START_DATE >= DATEADD(day,CAST(-365 as int),P.START_DATE) AND A.START_DATE <= DATEADD(day,CAST(0 as int),P.START_DATE) ) cc 
+GROUP BY cc.person_id, cc.event_id
+HAVING COUNT(DISTINCT cc.start_date) >= 2
+-- End Correlated Criteria
+
+UNION ALL
+-- Begin Criteria Group
+select 2 as index_id, person_id, event_id
+FROM
+(
+  select E.person_id, E.event_id 
+  FROM #qualified_events E
+  INNER JOIN
+  (
+    -- Begin Correlated Criteria
+select 0 as index_id, cc.person_id, cc.event_id
+from (SELECT p.person_id, p.event_id 
+FROM #qualified_events P
+JOIN (
+  -- Begin Condition Occurrence Criteria
+SELECT C.person_id, C.condition_occurrence_id as event_id, C.condition_start_date as start_date, COALESCE(C.condition_end_date, DATEADD(day,CAST(1 as int),C.condition_start_date)) as end_date,
+  C.visit_occurrence_id, C.condition_start_date as sort_date
+FROM 
+(
+  SELECT co.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.CONDITION_OCCURRENCE co
+  JOIN #Codesets cs on (co.condition_concept_id = cs.concept_id and cs.codeset_id = 19)
+) C
+
+WHERE (C.condition_start_date >= TO_DATE(TO_CHAR(2005,'0000FM')||'-'||TO_CHAR(1,'00FM')||'-'||TO_CHAR(1,'00FM'), 'YYYY-MM-DD') and C.condition_start_date <= TO_DATE(TO_CHAR(2017,'0000FM')||'-'||TO_CHAR(12,'00FM')||'-'||TO_CHAR(31,'00FM'), 'YYYY-MM-DD'))
+-- End Condition Occurrence Criteria
+
+) A on A.person_id = P.person_id  AND A.START_DATE >= P.OP_START_DATE AND A.START_DATE <= P.OP_END_DATE AND A.START_DATE >= DATEADD(day,CAST(-365 as int),P.START_DATE) AND A.START_DATE <= DATEADD(day,CAST(0 as int),P.START_DATE) ) cc 
+GROUP BY cc.person_id, cc.event_id
+HAVING COUNT(cc.event_id) >= 1
+-- End Correlated Criteria
+
+UNION ALL
+-- Begin Correlated Criteria
+select 1 as index_id, cc.person_id, cc.event_id
+from (SELECT p.person_id, p.event_id 
+FROM #qualified_events P
+JOIN (
+  -- Begin Drug Exposure Criteria
+select C.person_id, C.drug_exposure_id as event_id, C.drug_exposure_start_date as start_date,
+       COALESCE(C.DRUG_EXPOSURE_END_DATE, DATEADD(day,CAST(C.DAYS_SUPPLY as int),DRUG_EXPOSURE_START_DATE), DATEADD(day,CAST(1 as int),C.DRUG_EXPOSURE_START_DATE)) as end_date,
+       C.visit_occurrence_id,C.drug_exposure_start_date as sort_date
+from 
+(
+  select de.* 
+  FROM cdm_iqvia_pharmetrics_plus_v1500.DRUG_EXPOSURE de
+JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 6)
+) C
+
+WHERE (C.drug_exposure_start_date >= TO_DATE(TO_CHAR(2005,'0000FM')||'-'||TO_CHAR(1,'00FM')||'-'||TO_CHAR(1,'00FM'), 'YYYY-MM-DD') and C.drug_exposure_start_date <= TO_DATE(TO_CHAR(2017,'0000FM')||'-'||TO_CHAR(12,'00FM')||'-'||TO_CHAR(31,'00FM'), 'YYYY-MM-DD'))
+-- End Drug Exposure Criteria
+
+) A on A.person_id = P.person_id  AND A.START_DATE >= P.OP_START_DATE AND A.START_DATE <= P.OP_END_DATE AND A.START_DATE >= DATEADD(day,CAST(-365 as int),P.START_DATE) AND A.START_DATE <= DATEADD(day,CAST(0 as int),P.START_DATE) ) cc 
+GROUP BY cc.person_id, cc.event_id
+HAVING COUNT(cc.event_id) >= 1
+-- End Correlated Criteria
+
+  ) CQ on E.person_id = CQ.person_id and E.event_id = CQ.event_id
+  GROUP BY E.person_id, E.event_id
+  HAVING COUNT(index_id) = 2
+) G
+-- End Criteria Group
+
+  ) CQ on E.person_id = CQ.person_id and E.event_id = CQ.event_id
+  GROUP BY E.person_id, E.event_id
+  HAVING COUNT(index_id) > 0
+) G
+-- End Criteria Group
+) AC on AC.person_id = pe.person_id AND AC.event_id = pe.event_id
+) Results
+
+
+R version:
+R version 4.1.1 (2021-08-10)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- datasets
+- utils
+- methods
+- base
+
+Other attached packages:
+- HERMESCD (0.0.1)

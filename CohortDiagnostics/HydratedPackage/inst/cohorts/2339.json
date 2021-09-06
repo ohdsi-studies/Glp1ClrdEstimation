@@ -1,0 +1,1247 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Inpatient or inpatient ER visit",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256451,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32398004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.576891E+7,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "707440005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Exercise induced bronchospasm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255573,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "13645005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic obstructive lung disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317009,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195967001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256449,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "12295008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4163244,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "45145000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Unilateral emphysema",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260139,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10509002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256896,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "186178000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tuberculosis of bronchus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257775,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "23022004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260134,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71186008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Croup",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257778,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "27836007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pertussis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396285007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bronchopneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440748,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "77690003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Interstitial emphysema of lung",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255059,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "77593006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.575706E+7,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "103781000119103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Allergic bronchopulmonary mycosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 261895,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "33325001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Compensatory emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3655113,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "846635004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chronic respiratory condition caused by vapors",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439298,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "196019004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bronchitis and pneumonitis due to chemical fumes",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Chronic lower respiratory disease",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252235,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "29731002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tuberculous pneumothorax",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 253954,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "154283005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pulmonary tuberculosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255848,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233604007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256896,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "186178000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tuberculosis of bronchus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257775,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "23022004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257907,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "19829001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Disorder of lung",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 258335,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "90117007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 261774,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "186202007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Respiratory tuberculosis, not confirmed bacteriologically or histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 318459,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "409623005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Respiratory insufficiency",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4112824,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195929004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Influenza with gastrointestinal tract involvement",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4266367,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6142004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Influenza",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.626971E+7,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "10624951000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Otitis media due to influenza",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255084,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "78895009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317109,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "87317003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Respiratory arrest",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4173177,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "276536005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Respiratory insufficiency syndrome of newborn",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 313590,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "91581004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Perinatal respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 259992,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "429271009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ventilator associated pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4195452,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "44549008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Aspiration pneumonia resulting from a procedure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.576375E+7,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "700249006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Idiopathic interstitial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4148529,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "35037009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Primary atypical interstitial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4148486,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "309775007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Postprocedural respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4060429,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "199293005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Disease of the respiratory system complicating pregnancy, childbirth and/or the puerperium",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4317960,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "95619009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Neonatal respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 434271,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "58750007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Plague",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 258333,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2523007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Salmonella pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 253235,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "59475000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia in pertussis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.626995E+7,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1092951000119106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Bordetella parapertussis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4112820,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195889001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Legionella pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260041,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "3487004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Candidiasis of lung",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Respiratory disease",
+      "id": 4
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "EndDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "All"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"VisitOccurrence": {
+      "CorrelatedCriteria": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": true
+            },
+            "Criteria": {"ConditionOccurrence": {
+              "ConditionTypeExclude": false,
+              "CodesetId": 3,
+              "ConditionType": [
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800018E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822059",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient detail - primary",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822075",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - primary",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4.478663E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822127",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Primary Condition",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                }
+              ]
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": true
+            },
+            "Criteria": {"ConditionOccurrence": {
+              "CorrelatedCriteria": {
+                "CriteriaList": [{
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 0,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "Criteria": {"ConditionOccurrence": {
+                    "ConditionTypeExclude": false,
+                    "CodesetId": 3
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }],
+                "Type": "ALL",
+                "DemographicCriteriaList": [],
+                "Groups": []
+              },
+              "ConditionTypeExclude": false,
+              "CodesetId": 4,
+              "ConditionType": [
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800018E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822059",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient detail - primary",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822075",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - primary",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4.478663E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822127",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Primary Condition",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                }
+              ]
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": true
+            },
+            "Criteria": {"ConditionOccurrence": {
+              "ConditionTypeExclude": false,
+              "CodesetId": 3,
+              "ConditionStatus": [
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4307107,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "8319008",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Principal diagnosis",
+                  "DOMAIN_ID": "Observation",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 32901,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4976971",
+                  "VOCABULARY_ID": "Condition Status",
+                  "CONCEPT_NAME": "Primary admission diagnosis",
+                  "DOMAIN_ID": "Condition Status",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 32902,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4976972",
+                  "VOCABULARY_ID": "Condition Status",
+                  "CONCEPT_NAME": "Primary diagnosis",
+                  "DOMAIN_ID": "Condition Status",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 32903,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4976973",
+                  "VOCABULARY_ID": "Condition Status",
+                  "CONCEPT_NAME": "Primary discharge diagnosis",
+                  "DOMAIN_ID": "Condition Status",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                }
+              ]
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {"Coeff": 1},
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": {
+              "UseEventEnd": false,
+              "Start": {"Coeff": -1},
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": true
+            },
+            "Criteria": {"ConditionOccurrence": {
+              "CorrelatedCriteria": {
+                "CriteriaList": [{
+                  "RestrictVisit": false,
+                  "StartWindow": {
+                    "UseEventEnd": false,
+                    "Start": {
+                      "Days": 0,
+                      "Coeff": -1
+                    },
+                    "End": {
+                      "Days": 0,
+                      "Coeff": 1
+                    },
+                    "UseIndexEnd": false
+                  },
+                  "IgnoreObservationPeriod": false,
+                  "Criteria": {"ConditionOccurrence": {
+                    "ConditionTypeExclude": false,
+                    "CodesetId": 3
+                  }},
+                  "Occurrence": {
+                    "Type": 2,
+                    "IsDistinct": false,
+                    "Count": 1
+                  }
+                }],
+                "Type": "ALL",
+                "DemographicCriteriaList": [],
+                "Groups": []
+              },
+              "ConditionTypeExclude": false,
+              "CodesetId": 4,
+              "ConditionStatus": [
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 32901,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4976971",
+                  "VOCABULARY_ID": "Condition Status",
+                  "CONCEPT_NAME": "Primary admission diagnosis",
+                  "DOMAIN_ID": "Condition Status",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 32902,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4976972",
+                  "VOCABULARY_ID": "Condition Status",
+                  "CONCEPT_NAME": "Primary diagnosis",
+                  "DOMAIN_ID": "Condition Status",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 32903,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4976973",
+                  "VOCABULARY_ID": "Condition Status",
+                  "CONCEPT_NAME": "Primary discharge diagnosis",
+                  "DOMAIN_ID": "Condition Status",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 4307107,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "8319008",
+                  "VOCABULARY_ID": "SNOMED",
+                  "CONCEPT_NAME": "Principal diagnosis",
+                  "DOMAIN_ID": "Observation",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                }
+              ]
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }
+        ],
+        "Type": "ANY",
+        "DemographicCriteriaList": [],
+        "Groups": []
+      },
+      "CodesetId": 0,
+      "VisitTypeExclude": false
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

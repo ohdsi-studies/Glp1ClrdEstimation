@@ -1,0 +1,5145 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {},
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.9",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Asthma, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482199E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.90",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Asthma, unspecified type, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482314E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.92",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Asthma, unspecified type, with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.91",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Asthma, unspecified type, with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569492,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J47",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482782E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "494",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556246E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J47.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bronchiectasis, uncomplicated",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557217E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J47.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bronchiectasis with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "494.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Bronchiectasis with acute exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556246E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J47.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bronchiectasis with acute lower respiratory infection",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483477E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "494.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Bronchiectasis without acute exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "490",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Bronchitis, not specified as acute or chronic",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520801E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J40",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bronchitis, not specified as acute or chronic",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J43.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Centrilobular emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "496",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic airway obstruction, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.2",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic obstructive asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483128E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.20",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic obstructive asthma, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483714E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.22",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic obstructive asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.21",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic obstructive asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520803E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J44.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic obstructive pulmonary disease, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J44.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic obstructive pulmonary disease with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J44.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic obstructive pulmonary disease with (acute) lower respiratory infection",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "506.4",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic respiratory conditions due to fumes and vapors",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483361E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.82",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Cough variant asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.991",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Cough variant asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569486,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J43",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "492",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482782E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "492.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Emphysematous bleb",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J43.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Emphysema, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558667E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.990",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Exercise induced bronchospasm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.81",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Exercise induced bronchospasm",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Extrinsic asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482429E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.00",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Extrinsic asthma, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483128E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.02",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Extrinsic asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482429E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.01",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Extrinsic asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483128E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Intrinsic asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482429E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.10",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Intrinsic asthma, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483714E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.12",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Intrinsic asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483477E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.11",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Intrinsic asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557217E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild intermittent asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.554812E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.20",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild intermittent asthma, uncomplicated",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557217E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.21",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild intermittent asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557217E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.22",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild intermittent asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558186E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.3",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild persistent asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557695E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.30",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild persistent asthma, uncomplicated",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.554812E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.31",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild persistent asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557695E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.32",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mild persistent asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J41.8",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mixed simple and mucopurulent chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.559156E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.4",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Moderate persistent asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.560113E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.40",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Moderate persistent asthma, uncomplicated",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.554327E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.41",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Moderate persistent asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.555763E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.42",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Moderate persistent asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J41.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Mucopurulent chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483713E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Mucopurulent chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.2",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Obstructive chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.22",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Obstructive chronic bronchitis with acute bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482199E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.21",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Obstructive chronic bronchitis with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.20",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Obstructive chronic bronchitis without exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569489,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other and unspecified asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557217E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.998",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569491,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.99",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483598E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569487,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J44",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other chronic obstructive pulmonary disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "492.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J43.8",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483012E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "493.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other forms of asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J43.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Panlobular emphysema",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.559156E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.5",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Severe persistent asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556727E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.50",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Severe persistent asthma, uncomplicated",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556727E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.51",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Severe persistent asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558186E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.52",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Severe persistent asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569485,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J41",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Simple and mucopurulent chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520801E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J41.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Simple chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Simple chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J43.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unilateral pulmonary emphysema [MacLeod's syndrome]",
+            "DOMAIN_ID": "Observation",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569490,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.90",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unspecified asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556246E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.909",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unspecified asthma, uncomplicated",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.560113E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.901",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unspecified asthma with (acute) exacerbation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.554327E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J45.902",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unspecified asthma with status asthmaticus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483011E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "491.9",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Unspecified chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520802E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J42",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unspecified chronic bronchitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Source codes for chronic lower respiratory disease",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482902E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "518.84",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Acute and chronic respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.52081E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute and chronic respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.559629E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.20",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute and chronic respiratory failure, unspecified whether with hypoxia or hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558187E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.22",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute and chronic respiratory failure with hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.554328E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.21",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute and chronic respiratory failure with hypoxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483478E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "518.81",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Acute respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.52081E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.560591E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.00",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.559629E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.02",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute respiratory failure with hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556728E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.01",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Acute respiratory failure with hypoxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520793E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Adenoviral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569466,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bacterial pneumonia, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482198E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.9",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Bacterial pneumonia, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482199E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "485",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Bronchopneumonia, organism unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J18.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Bronchopneumonia, unspecified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J16.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chlamydial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.52081E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482902E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "518.83",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Chronic respiratory failure",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.554813E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.10",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic respiratory failure, unspecified whether with hypoxia or hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557218E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.12",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic respiratory failure with hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.553849E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.11",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Chronic respiratory failure with hypoxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.3",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Human metapneumovirus pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J18.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Hypostatic pneumonia, unspecified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482428E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "487",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to certain identified influenza viruses",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482782E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified 2009 H1N1 influenza virus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482429E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.19",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified 2009 H1N1 influenza virus with other manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482668E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.12",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified 2009 H1N1 influenza virus with other respiratory manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482782E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.11",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified 2009 H1N1 influenza virus with pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified avian influenza virus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483713E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.09",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified avian influenza virus with other manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.02",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified avian influenza virus with other respiratory manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481975E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.01",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified avian influenza virus with pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483011E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.89",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified novel influenza A virus with other manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.82",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified novel influenza A virus with other respiratory manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482429E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.81",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to identified novel influenza A virus with pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.589094E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "488.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza due to novel influenza A",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557216E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J11.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Influenza due to unidentified influenza virus with gastrointestinal manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558185E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J11.89",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Influenza due to unidentified influenza virus with other manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 8689,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J11.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Influenza due to unidentified influenza virus with other respiratory manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.553848E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J11.83",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Influenza due to unidentified influenza virus with otitis media",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.558666E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J11.00",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Influenza due to unidentified influenza virus with unspecified type of pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "487.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza with other manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "487.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza with other respiratory manifestations",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483011E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "487.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Influenza with pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J18.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Lobar pneumonia, unspecified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483598E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.42",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Methicillin resistant pneumonia due to Staphylococcus aureus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482314E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.41",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Methicillin susceptible pneumonia due to Staphylococcus aureus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other bacterial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481975E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "518.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other diseases of lung",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481975E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "518.89",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other diseases of lung, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520796E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J18.8",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other pneumonia, unspecified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48209E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "518.82",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other pulmonary insufficiency, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483674E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.81",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483674E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.82",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.83",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482053E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.85",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.86",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483319E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.84",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48344E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.80",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other specified pulmonary tuberculosis, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.49",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Other Staphylococcus pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.557216E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.89",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other viral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.8",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Other viral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520793E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Parainfluenza virus pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "481",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumococcal pneumonia [Streptococcus pneumoniae pneumonia]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to adenovirus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.81",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to anaerobes",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483361E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "483.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to chlamydia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.5",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Escherichia coli",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.82",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to escherichia coli [E. coli]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J14",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Hemophilus influenzae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482782E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.2",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Hemophilus influenzae [H. influenzae]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482428E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Klebsiella pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.0",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Klebsiella pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481974E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.84",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Legionnaires' disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.555762E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.212",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Methicillin resistant Staphylococcus aureus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.553355E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.211",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Methicillin susceptible Staphylococcus aureus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "6-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483361E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "483.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to mycoplasma pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.7",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Mycoplasma pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483598E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.83",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other gram-negative bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.6",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to other Gram-negative bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569468,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J16",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to other infectious organisms, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483713E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other specified bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.8",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to other specified bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483477E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.89",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other specified bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J16.8",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to other specified infectious organisms",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "483",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other specified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481975E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "483.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other specified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.559155E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.29",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to other staphylococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.4",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to other streptococci",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483361E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.39",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other Streptococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to other virus not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483128E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480.2",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to parainfluenza virus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482428E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Pseudomonas",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Pseudomonas",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483598E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to respiratory syncytial virus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556726E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.81",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to SARS-associated coronavirus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482667E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480.3",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to SARS-associated coronavirus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569467,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.2",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to staphylococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483477E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.4",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Staphylococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556726E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.21",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to staphylococcus aureus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.560112E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.20",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to staphylococcus, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.40",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Staphylococcus, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482198E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.3",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483242E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.31",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus, group A",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.3",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to streptococcus, group B",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481974E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.32",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus, group B",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J13",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "482.30",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482667E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484.5",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in anthrax",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484.6",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in aspergillosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483477E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in cytomegalic inclusion disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J17",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia in diseases classified elsewhere",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483361E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in infectious diseases classified elsewhere",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482428E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484.8",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in other infectious diseases classified elsewhere",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482547E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484.7",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in other systemic mycoses",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482667E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "484.3",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia in whooping cough",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482901E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "486",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pneumonia, organism unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520796E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J18.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Pneumonia, unspecified organism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482863E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.91",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483674E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.92",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482279E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.93",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483204E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.95",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.96",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482279E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.94",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482864E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.90",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Pulmonary tuberculosis, unspecified, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569515,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Respiratory failure, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.52081E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Respiratory failure, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.556728E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.90",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Respiratory failure, unspecified, unspecified whether with hypoxia or hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.553356E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.92",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Respiratory failure, unspecified with hypercapnia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.560591E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J96.91",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Respiratory failure, unspecified with hypoxia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520793E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.1",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Respiratory syncytial virus pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.3",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.31",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483319E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.32",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482629E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.33",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.35",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.36",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483439E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.34",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, tubercle bacilli not found (in sputum) by microscopy, but found in bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482278E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.30",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of bronchus, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483439E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.0",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.01",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48297E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.02",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48297E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.03",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483204E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.06",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, tubercle bacilli not found bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482278E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.05",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482278E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.04",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.00",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, infiltrative, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482278E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.1",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482745E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.11",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483557E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.12",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482052E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.13",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.15",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482971E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.16",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483204E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.14",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.10",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung, nodular, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483204E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.2",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482745E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.21",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48251E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.22",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482278E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.23",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.25",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481931E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.26",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481931E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.24",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.20",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculosis of lung with cavitation, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481931E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.5",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482629E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.51",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482629E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.52",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48251E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.53",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483674E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.55",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48251E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.56",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.54",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.50",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous bronchiectasis, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.4",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483319E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.41",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.42",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482393E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.43",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483204E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.45",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482863E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.46",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483439E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.44",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482863E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.40",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous fibrosis of lung, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48251E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.6",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482863E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.61",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482864E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.62",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483439E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.63",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482629E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.65",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482971E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.66",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483439E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.64",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.60",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumonia [any form], unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.481932E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.7",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.48344E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.71",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, bacteriological or histological examination not done",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482164E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.72",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, bacteriological or histological examination unknown (at present)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483674E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.73",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, tubercle bacilli found (in sputum) by microscopy",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482864E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.75",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, tubercle bacilli not found by bacteriological examination, but tuberculosis confirmed histologically",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483089E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.76",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, tubercle bacilli not found by bacteriological or histological examination, but tuberculosis confirmed by other methods [inoculation of animals]",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483204E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.74",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, tubercle bacilli not found (in sputum) by microscopy, but found by bacterial culture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482746E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.70",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Tuberculous pneumothorax, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "5-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520795E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J15.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Unspecified bacterial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.482393E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "011.9",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Unspecified pulmonary tuberculosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483128E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Viral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-dig nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1569465,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Viral pneumonia, not elsewhere classified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "3-char nonbill code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3.520794E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "J12.9",
+            "VOCABULARY_ID": "ICD10CM",
+            "CONCEPT_NAME": "Viral pneumonia, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-char billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4.483128E+7,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "480.9",
+            "VOCABULARY_ID": "ICD9CM",
+            "CONCEPT_NAME": "Viral pneumonia, unspecified",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "4-dig billing code",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Source codes for respiratory disease",
+      "id": 2
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "EndDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "All"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"ConditionOccurrence": {
+        "ConditionTypeExclude": false,
+        "ConditionType": [{
+          "INVALID_REASON_CAPTION": "Unknown",
+          "CONCEPT_ID": 3.80002E+7,
+          "STANDARD_CONCEPT": null,
+          "CONCEPT_CODE": "OMOP4822075",
+          "VOCABULARY_ID": "Condition Type",
+          "CONCEPT_NAME": "Inpatient header - primary",
+          "DOMAIN_ID": "Type Concept",
+          "STANDARD_CONCEPT_CAPTION": "Unknown",
+          "CONCEPT_CLASS_ID": null,
+          "INVALID_REASON": null
+        }],
+        "ConditionSourceConcept": 1
+      }},
+      {"ConditionOccurrence": {
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "Criteria": {"ConditionOccurrence": {
+              "ConditionTypeExclude": false,
+              "ConditionType": [
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822076",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 1st position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822077",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 2nd position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822078",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 3rd position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822079",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 4th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.80002E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822080",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 5th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822081",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 6th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822082",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 7th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822083",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 8th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822084",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 9th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822085",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 10th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822086",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 11th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822087",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 12th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822088",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 13th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822089",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 14th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                },
+                {
+                  "INVALID_REASON_CAPTION": "Unknown",
+                  "CONCEPT_ID": 3.800021E+7,
+                  "STANDARD_CONCEPT": null,
+                  "CONCEPT_CODE": "OMOP4822090",
+                  "VOCABULARY_ID": "Condition Type",
+                  "CONCEPT_NAME": "Inpatient header - 15th position",
+                  "DOMAIN_ID": "Type Concept",
+                  "STANDARD_CONCEPT_CAPTION": "Unknown",
+                  "CONCEPT_CLASS_ID": null,
+                  "INVALID_REASON": null
+                }
+              ],
+              "ConditionSourceConcept": 1
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "IsDistinct": false,
+              "Count": 1
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": []
+        },
+        "ConditionTypeExclude": false,
+        "ConditionType": [{
+          "INVALID_REASON_CAPTION": "Unknown",
+          "CONCEPT_ID": 3.80002E+7,
+          "STANDARD_CONCEPT": null,
+          "CONCEPT_CODE": "OMOP4822075",
+          "VOCABULARY_ID": "Condition Type",
+          "CONCEPT_NAME": "Inpatient header - primary",
+          "DOMAIN_ID": "Type Concept",
+          "STANDARD_CONCEPT_CAPTION": "Unknown",
+          "CONCEPT_CLASS_ID": null,
+          "INVALID_REASON": null
+        }],
+        "ConditionSourceConcept": 2
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}
