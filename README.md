@@ -1,4 +1,4 @@
-[Study title]
+The journey to reliable evidence: evaluating reliability of observational research findings via assessment of repeatability, reproducibility, replicability, generalizability, robustness, and calibration.
 =============
 
 <img src="https://img.shields.io/badge/Study%20Status-Repo%20Created-lightgray.svg" alt="Study Status: Repo Created">
