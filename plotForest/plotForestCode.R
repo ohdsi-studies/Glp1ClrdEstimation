@@ -193,6 +193,18 @@ plotForestWrapper <- function(fData,plotTitle,breaks = c(0.25, 0.5, 1, 2, 4),lim
     
   }
   
+  if (colorKey=="masterManuscript") {
+    fData$color <- ifelse(grepl("Albogami",fData$label),"#000000",
+                          ifelse(grepl("CCAE",fData$database_id) & fData$source != "Source","#000000",
+                                 ifelse(fData$source == "Source","#000000",
+                                        ifelse(grepl("Meta",fData$database_id),"#000000","#000000"))))
+    fData$color <- factor(fData$color, levels = unique(fData$color[order(fData$order)]))
+    #aesColors <- factor(aesColors, levels = unique(aesColors[order(fData$order)]))
+    #aesColors <- fData$color
+    cols <- c("#000000"="#000000", "#000000"="#000000", "#000000"="#000000","#000000"="#000000","#000000"="#000000")
+    
+  }
+  
   fPlot <- plotForest2(logRr=fData$log_rr,
                                             seLogRr=fData$se_log_rr,
                                             names=fData$label,
@@ -227,8 +239,13 @@ plotForestWrapper <- function(fData,plotTitle,breaks = c(0.25, 0.5, 1, 2, 4),lim
     theme(axis.text.x = element_text(size=10), 
           axis.text.y = element_text(size=10)) +
     geom_hline(yintercept = breaks, colour = "#AAAAAA", lty = 1, size = 0.2) + 
-    geom_hline(yintercept = 1, size = 0.5)  
+    geom_hline(yintercept = 1, size = 0.5)
   
+  if (colorKey=="masterManuscript") {
+    fPlot <- fPlot + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+                           panel.background = element_blank())
+  }
+
   return(fPlot)
 }
 
@@ -274,6 +291,11 @@ ggsave(filename = file.path(outputFolder,"hospSlide1.png"), plot=hospSlide1, wid
 ggsave(filename = file.path(outputFolder,"hospSlide2.png"), plot=hospSlide2, width = 6.65, height = 3.76, units = "in")
 ggsave(filename = file.path(outputFolder,"hospSlide3.png"), plot=hospSlide3, width = 6.65, height = 3.76, units = "in")
 
+# Figure 1 Panel 1 in the manuscript
+hospFigure1Manuscript <- plotForestWrapper(forestDataHospBlanks3, "Hospitalization Outcome",colorKey="masterManuscript")
+hospFigure1Manuscript
+ggsave(filename = file.path(outputFolder,"hospFigure1Manuscript.png"), plot=hospFigure1Manuscript, width = 6.8, height = 3.76, units = "in")
+
 # Creating Forest Plot Showing Main Results for Exacerbation Outcome
 
 forestDataExacBlanks1 <- 
@@ -315,6 +337,13 @@ exacSlide3
 ggsave(filename = file.path(outputFolder,"exacSlide1.png"), plot=exacSlide1, width = 6.65, height = 3.76, units = "in")
 ggsave(filename = file.path(outputFolder,"exacSlide2.png"), plot=exacSlide2, width = 6.65, height = 3.76, units = "in")
 ggsave(filename = file.path(outputFolder,"exacSlide3.png"), plot=exacSlide3, width = 6.65, height = 3.76, units = "in")
+
+
+# Figure 1 Panel 2 in the manuscript
+exacFigure1Manuscript <- plotForestWrapper(forestDataExacBlanks3, "Exacerbation Outcome", colorKey="masterManuscript")
+exacFigure1Manuscript
+ggsave(filename = file.path(outputFolder,"exacFigure1Manuscript.png"), plot=exacFigure1Manuscript, width = 6.8, height = 3.76, units = "in")
+
 
 # Creating Forest Plot Showing Sn analysis Results to Compare to Albogami et al
 
@@ -1024,6 +1053,12 @@ networkHospSlideCalMeta <- plotForestWrapper(forestNetworkHospCalMeta, "OHDSI Ne
 networkHospSlideCalMeta
 ggsave(filename = file.path(outputFolder,"networkHospSlideCalMeta.png"), plot=networkHospSlideCalMeta, width = 6.65, height = 3.76, units = "in")
 
+# Figure 2 Left Panel for manuscript
+networkHospFigureCalMeta <- plotForestWrapper(forestNetworkHospCalMeta, "OHDSI Network: Hospitalization",colorKey="masterManuscript")
+networkHospFigureCalMeta
+ggsave(filename = file.path(outputFolder,"networkHospFigureCalMeta.png"), plot=networkHospFigureCalMeta, width = 6.8, height = 3.76, units = "in")
+
+
 forestNetworkExacCalMeta <- 
   rbind(primaryMetaRowsExac,
         blankRowExac1,
@@ -1038,10 +1073,14 @@ networkExacSlideCalMeta <- plotForestWrapper(forestNetworkExacCalMeta, "OHDSI Ne
 networkExacSlideCalMeta
 ggsave(filename = file.path(outputFolder,"networkExacSlideCalMeta.png"), plot=networkExacSlideCalMeta, width = 6.65, height = 3.76, units = "in")
 
+# Figure 2 Right Panel for manuscript
+networkExacFigureCalMeta <- plotForestWrapper(forestNetworkExacCalMeta, "OHDSI Network: Exacerbations",colorKey="masterManuscript")
+networkExacFigureCalMeta
+ggsave(filename = file.path(outputFolder,"networkExacFigureCalMeta.png"), plot=networkExacFigureCalMeta, width = 6.65, height = 3.76, units = "in")
 
 # Generating Cross-Network Ingredient-specific forestPlots with Meta Analysis Estimates
 
-ingredientMetaForest <- function(ingredient) { # ingredient <- "Exenatide"
+ingredientMetaForest <- function(ingredient,colorScheme="master") { # ingredient <- "Exenatide"
   
   forestDataHosp <- 
     rbind(get(paste0(ingredient,"HospMeta")),
@@ -1053,7 +1092,7 @@ ingredientMetaForest <- function(ingredient) { # ingredient <- "Exenatide"
   forestDataHosp$label <-
     ifelse(forestDataHosp$label == "Hospitalizations","Meta-Analysis",forestDataHosp$label)
   
-  forestPlotHosp <- plotForestWrapper(forestDataHosp, paste0("OHDSI Network: ",ingredient," Hospitalizations"),colorKey="master")
+  forestPlotHosp <- plotForestWrapper(forestDataHosp, paste0("OHDSI Network: ",ingredient," Hospitalizations"),colorKey=colorScheme)
   #forestPlotHosp
   ggsave(filename = file.path(outputFolder,paste0("networkHospSlideCalMeta",ingredient,".png")), 
          plot=forestPlotHosp, width = 6.65, height = 3.76, units = "in")
@@ -1068,16 +1107,23 @@ ingredientMetaForest <- function(ingredient) { # ingredient <- "Exenatide"
   forestDataExac$label <-
     ifelse(forestDataExac$label == "Exacerbations","Meta-Analysis",forestDataExac$label)
   
-  forestPlotExac <- plotForestWrapper(forestDataExac, paste0("OHDSI Network: ",ingredient," Exacerbations"),colorKey="master")
+  forestPlotExac <- plotForestWrapper(forestDataExac, paste0("OHDSI Network: ",ingredient," Exacerbations"),colorKey=colorScheme)
   #forestPlotExac
   ggsave(filename = file.path(outputFolder,paste0("networkExacSlideCalMeta",ingredient,".png")), 
          plot=forestPlotExac, width = 6.65, height = 3.76, units = "in")
   
 }
+# Figures for slides
 ingredientMetaForest("Exenatide")
 ingredientMetaForest("Liraglutide")
 ingredientMetaForest("Dulaglutide")
 ingredientMetaForest("Semaglutide")
+
+# Figure 3 panels
+ingredientMetaForest("Exenatide", colorScheme="masterManuscript")
+ingredientMetaForest("Liraglutide", colorScheme="masterManuscript")
+ingredientMetaForest("Dulaglutide", colorScheme="masterManuscript")
+ingredientMetaForest("Semaglutide", colorScheme="masterManuscript")
 
 # generating forest plot containing only meta-analysis estimates (ingredients and main)
 
